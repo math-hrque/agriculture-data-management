@@ -1,6 +1,12 @@
 # Agriculture Data Management
 
+_A system designed to digitize, organize, and enhance the management of agricultural data for improved efficiency and decision-making._
+
+## **Introduction**
+
 This project, **Agriculture Data Management**, was developed to digitize and modernize the management of agricultural data. The process began with the transformation of a physical **Agriculture Form** traditionally used for collecting information into a structured, digital online form. The objective was to eliminate manual data handling, reduce errors, and enable better data analysis and reporting.
+
+---
 
 ## Project Overview
 
@@ -25,6 +31,8 @@ The main goal of this project is to design and implement a database system that 
     - Fetching reports on properties, products, and demands.
     - Monitoring updates using triggers to maintain logs of changes.
 
+---
+
 ## Files in the Repository
 
 The repository is structured as follows:
@@ -39,6 +47,8 @@ The repository is structured as follows:
 - **docs/logical_model**: The logical database schema.
 - **docs/physical_model**: The physical implementation details of the database.
 
+---
+
 ## Key Features
 
 - **Normalization**: The database structure is fully normalized to reduce redundancy and improve efficiency.
@@ -51,6 +61,8 @@ The repository is structured as follows:
   - Agricultural products and demands.
 - **Pre-populated Data**: The database is seeded with synthetic data to simulate real-world scenarios for testing.
 
+---
+
 ## Usage Instructions
 
 1. Clone this repository:
@@ -62,12 +74,16 @@ The repository is structured as follows:
 4. Execute the procedures and triggers script (`sql/procedures_and_triggers.sql`) to set up logging and automation.
 5. Explore the queries and views provided in `sql/queries_and_views.sql`.
 
+---
+
 ## How It Works
 
 This database system supports:
 - Storing detailed information about farmers, their families, and properties.
 - Logging updates to ensure data integrity.
 - Enabling complex queries to analyze agricultural data for decision-making.
+
+---
 
 ## Future Improvements
 
